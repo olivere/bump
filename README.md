@@ -27,6 +27,17 @@ $ bump -kind=minor -i VERSION -o VERSION.out
 $ cat VERSION.out
 v1.0.1
 $ bump -h
+Usage of bump:
+
+	bump [flags]
+
+Flags:
+  -i string
+    	Input file (default: stdin)
+  -kind string
+    	Kind of update: major, minor, or patch (default: patch) (default "patch")
+  -o string
+    	Output file (default: stdout)
 ```
 
 ## License
