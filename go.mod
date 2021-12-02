@@ -1,3 +1,5 @@
 module github.com/olivere/bump
 
-require github.com/Masterminds/semver v1.4.2
+go 1.17
+
+require github.com/Masterminds/semver v1.5.0
